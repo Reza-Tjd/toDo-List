@@ -1,0 +1,74 @@
+/* Background color for the overall container */
+.background-color {
+    background-color: #f1f5f9;
+}
+
+/* Background color for the card */
+.card-background {
+    background-color: white;
+}
+
+/* Segmented Control Styling */
+
+/* Styling for the inactive tab */
+.bg-transparent {
+    background-color: transparent;
+    color: #94a3b8; /* Text color for inactive state */
+}
+
+/* Styling for the active tab */
+.bg-white {
+    background-color: white;
+    color: #1e293b; /* Text color for active state */
+}
+
+/* Adding a shadow to the active tab */
+.drop-shadow {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+    transition: all 0.3s ease-in-out;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+}
+
+/* Hover effects */
+button:hover {
+    color: #1d4ed8; /* Darker blue text on hover */
+    background-color: #e2e8f0; /* Light background on hover */
+}
+
+/* Grouped button container */
+.inline-flex {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: start;
+    height: 2.25rem; /* 9 * 0.25rem = 2.25rem */
+    width: 100%;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    background-color: #e2e8f0;
+}
+
+/* Responsive adjustments */
+@media (min-width: 640px) {
+    .sm\:w-auto {
+        width: auto;
+    }
+}
+
+/* Button text and spacing */
+.group {
+    gap: 0.375rem; /* 1.5 * 0.25rem = 0.375rem */
+    font-size: 0.75rem; /* text-xs */
+    font-weight: 600; /* font-semibold */
+}
+
+/* Additional styles if necessary */
+/* .some-other-class {
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+} */

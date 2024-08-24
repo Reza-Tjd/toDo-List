@@ -1,0 +1,27 @@
+.background-color2{
+    background: #fefbfb;
+  }
+  .leftBox-bgColor  {
+    background:  #213357 ;
+  }
+  
+  .text-color{
+    color: #213357;
+  }
+  .rightBox-bgColor {
+    background:  #ffffff ;
+  }
+  
+  .btn-color{
+    color: #ffffff;
+  }
+  
+  .placeholder-text-lg::placeholder {
+    font-size: 14px; 
+    line-height: 1.5;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
