@@ -1,7 +1,6 @@
 import React from "react";
 import "./Task.css";
-import SegmentedControl from "../SegmentControl/SegmentControl";
-
+import SegmentedControl from "../SegmentedConrol/SegmentControl";
 export default function Task({ todoList }) {
   return (
     <div className="background-color4 h-screen w-screen flex items-center justify-center">

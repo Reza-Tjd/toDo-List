@@ -1,5 +1,5 @@
 import React from "react";
-import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import "./WelcomePage.css";
 import { Link } from "react-router-dom";
 
